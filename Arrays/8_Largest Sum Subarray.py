@@ -21,8 +21,8 @@ int largestsum(arr, n)
 
         if max_ending_here < 0 :
             max_ending_here = 0
-        return max_so_far
     }
+    return max_so_far
 }
 Time Complexity : O(n)
 Auxiliary Space : O(1)

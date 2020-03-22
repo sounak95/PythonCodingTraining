@@ -34,7 +34,7 @@ def areRotations(str1, str2):
     n2=len(str2)
     if n1!=n2:
         return False
-    if(str1+str2).count(str2)>0:
+    if(str1+str1).count(str2)>0:
         return True
     else:
         return False

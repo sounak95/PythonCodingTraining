@@ -15,5 +15,4 @@ for i in range(n):
         if arr[i]==arr[j]:
             count+=1
             visited[j]=True
-    if(j==n-1):
-        print("Frequency of element {} is {}".format(arr[i],count))
+    print("Frequency of element {} is {}".format(arr[i],count))

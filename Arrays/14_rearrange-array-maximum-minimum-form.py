@@ -15,14 +15,14 @@ arr=[1, 2, 3, 4, 5, 6, 7]
 n=len(arr)
 temp=[None]*n
 s,l=0,n-1
-k=0
+# k=0
 for i in range(n):
-    if (k%2==0):
+    if (i%2==0):
         temp[i]=arr[l]
         l-=1
     else:
         temp[i]=arr[s]
         s+=1
-    k+=1
+    # k+=1
 
 print(temp)

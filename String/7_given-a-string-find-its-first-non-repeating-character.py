@@ -30,10 +30,6 @@ def firstNonRepeating(string):
             return letter
 
 
-
-
-
-
 # Driver program to test above function
 string = "geeksforgeeks"
 letter = firstRepeating(string)

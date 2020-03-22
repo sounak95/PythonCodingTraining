@@ -15,7 +15,6 @@ for i in range(n):
         if(arr[i]<=arr[j]):
             break
     if(j==n-1):
-        pass
         print(arr[i])
 
 """
